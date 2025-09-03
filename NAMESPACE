@@ -1,0 +1,17 @@
+#exportPattern("^[[:alpha:]]+")
+
+export(ec_dispersal_probability)
+export(ec_pa_distances)
+export(ec_prepare_data)
+export(ec_add_transboundary_pa)
+export(ec_eca)
+export(ec_pc)
+export(ec_protconn_fractions)
+export(ec_protconn)
+export(ec_max_product_probability)
+export(`%>%`)
+export(`%<>%`)
+
+# magrittr
+importFrom(magrittr, '%>%')
+importFrom(magrittr, '%<>%')
